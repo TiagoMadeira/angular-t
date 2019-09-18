@@ -13,6 +13,7 @@ import { HeroDetailService } from './hero-detail.service';
 })
 export class HeroDetailComponent implements OnInit {
   constructor(
+    //bam
     private heroDetailService: HeroDetailService,
     private route:  ActivatedRoute,
     private router: Router) {
